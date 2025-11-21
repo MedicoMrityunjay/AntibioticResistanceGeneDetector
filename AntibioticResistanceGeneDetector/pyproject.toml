@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AntibioticResistanceGeneDetector"
+version = "0.1.0"
+description = "Detect antibiotic resistance genes in FASTA files using BLAST+/DIAMOND"
+authors = [
+    { name = "GitHub Copilot" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "biopython",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "networkx",
+    "tqdm",
+    "rich>=13.4.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/github-copilot/AntibioticResistanceGeneDetector"
+
+[project.scripts]
+arg_res_detector = "src.main:main"

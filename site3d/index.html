@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Antibiotic Resistance Gene Detector — 3D Showcase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <h1>Antibiotic Resistance Gene Detector</h1>
+      <nav class="nav">
+        <button id="open-demo">Interactive Demo</button>
+      </nav>
+    </header>
+
+    <main class="stage">
+      <div id="canvas-container"></div>
+      <aside id="module-panel" class="panel hidden">
+        <button id="close-panel" class="close">✕</button>
+        <h2 id="module-title">Module</h2>
+        <div id="module-canvas-wrap">
+          <canvas id="module-canvas"></canvas>
+        </div>
+        <div id="module-info" class="info"></div>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <small>Dark neon theme • Responsive • Mobile-friendly</small>
+    </footer>
+  </div>
+
+  <!-- Three.js and helpers (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.152.2/examples/js/controls/OrbitControls.js"></script>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+sample_id,gene,identity,coverage,antibiotic_class,source_file
+example,geneA,100.0,57,Beta-lactam,AntibioticResistanceGeneDetector\input\example.fasta
+example,geneB,100.0,57,Tetracycline,AntibioticResistanceGeneDetector\input\example.fasta
+test_batch1,geneA,100.0,57,Beta-lactam,AntibioticResistanceGeneDetector\input\test_batch1.fasta
+test_batch1,geneB,100.0,57,Tetracycline,AntibioticResistanceGeneDetector\input\test_batch1.fasta
+test_batch2,geneA,100.0,57,Beta-lactam,AntibioticResistanceGeneDetector\input\test_batch2.fasta
+test_batch2,geneB,100.0,57,Tetracycline,AntibioticResistanceGeneDetector\input\test_batch2.fasta

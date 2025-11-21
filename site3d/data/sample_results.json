@@ -1,0 +1,7 @@
+{
+  "samples": [
+    {"name":"sample1","genes":[{"gene":"blaTEM","identity":99.2}]},
+    {"name":"sample2","genes":[{"gene":"tetA","identity":92.1}]}
+  ],
+  "summary": {"Beta-lactam":12,"Tetracycline":5,"Macrolide":3}
+}

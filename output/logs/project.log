@@ -1,0 +1,50 @@
+2025-11-21 01:31:19,971 [WARNING] BLAST/DIAMOND not found, using mock search.
+2025-11-21 01:31:19,971 [INFO] Detected 2 resistance genes for sample example.
+2025-11-21 01:31:19,994 [WARNING] BLAST/DIAMOND not found, using mock search.
+2025-11-21 01:31:19,994 [INFO] Detected 2 resistance genes for sample test_batch1.
+2025-11-21 01:31:20,016 [WARNING] BLAST/DIAMOND not found, using mock search.
+2025-11-21 01:31:20,016 [INFO] Detected 2 resistance genes for sample test_batch2.
+2025-11-21 01:31:20,024 [INFO] Results written to output/example_results.csv
+2025-11-21 01:31:20,028 [INFO] Results written to output/test_batch1_results.csv
+2025-11-21 01:31:20,031 [INFO] Results written to output/test_batch2_results.csv
+2025-11-21 01:31:20,034 [INFO] Results written to output/results.csv
+BLAST/DIAMOND not found, using mock search.
+Detected 2 resistance genes for sample example.
+BLAST/DIAMOND not found, using mock search.
+Detected 2 resistance genes for sample test_batch1.
+BLAST/DIAMOND not found, using mock search.
+Detected 2 resistance genes for sample test_batch2.
+Results written to output\example_results.csv
+Results written to output\test_batch1_results.csv
+Results written to output\test_batch2_results.csv
+Results written to output\results.csv
+BLAST/DIAMOND not found, using mock search.
+Detected 2 resistance genes for sample example.
+BLAST/DIAMOND not found, using mock search.
+Detected 2 resistance genes for sample test_batch1.
+BLAST/DIAMOND not found, using mock search.
+Detected 2 resistance genes for sample test_batch2.
+Results written to output\example_results.csv
+Results written to output\test_batch1_results.csv
+Results written to output\test_batch2_results.csv
+Results written to output\results.csv
+BLAST/DIAMOND not found, using mock search.
+Detected 2 resistance genes for sample example.
+BLAST/DIAMOND not found, using mock search.
+Detected 2 resistance genes for sample test_batch1.
+BLAST/DIAMOND not found, using mock search.
+Detected 2 resistance genes for sample test_batch2.
+Results written to output\example_results.csv
+Results written to output\test_batch1_results.csv
+Results written to output\test_batch2_results.csv
+Results written to output\results.csv
+BLAST/DIAMOND not found, using mock search.
+Detected 2 resistance genes for sample example.
+BLAST/DIAMOND not found, using mock search.
+Detected 2 resistance genes for sample test_batch1.
+BLAST/DIAMOND not found, using mock search.
+Detected 2 resistance genes for sample test_batch2.
+Results written to output\example_results.csv
+Results written to output\test_batch1_results.csv
+Results written to output\test_batch2_results.csv
+Results written to output\results.csv
