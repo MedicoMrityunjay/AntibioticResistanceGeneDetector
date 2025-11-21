@@ -1,0 +1,71 @@
+site_name: AntibioticResistanceGeneDetector Docs
+site_url: https://github.com/github-copilot/AntibioticResistanceGeneDetector
+repo_url: https://github.com/github-copilot/AntibioticResistanceGeneDetector
+repo_name: github-copilot/AntibioticResistanceGeneDetector
+site_description: Documentation for AntibioticResistanceGeneDetector
+site_author: GitHub Copilot
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.annotate
+    - content.tabs.link
+    - content.admonition
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_root_heading: true
+            show_root_full_path: true
+            show_signature: true
+            show_source: false
+            show_bases: true
+            show_inheritance: true
+            show_docstring_examples: true
+            show_typehint_in_signature: true
+            show_typehint_in_description: true
+            show_attributes: true
+            show_inherited_members: true
+            merge_init_into_class: true
+            filters:
+              - public
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji
+
+extra:
+  version: "0.1.1-rc1"
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - CLI Reference: cli-reference.md
+  - Architecture: architecture.md
+  - API Reference:
+      - Overview: api.md
+      - Module Reference: api_reference.md
+  - Development: development.md
+  - Changelog: changelog.md
