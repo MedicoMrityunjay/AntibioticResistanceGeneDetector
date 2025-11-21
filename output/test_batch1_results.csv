@@ -1,3 +1,2 @@
-sample_id,gene,identity,coverage,antibiotic_class,source_file
-test_batch1,geneA,100.0,57,Beta-lactam,AntibioticResistanceGeneDetector\input\test_batch1.fasta
-test_batch1,geneB,100.0,57,Tetracycline,AntibioticResistanceGeneDetector\input\test_batch1.fasta
+error
+File not found: AntibioticResistanceGeneDetector/data/resistance_genes.fasta
